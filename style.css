@@ -36,6 +36,10 @@
     text-decoration: none;
 }
 
+.text-info-learnmore:hover {
+    text-decoration: underline;
+}
+
 .text-info-by {
     position: absolute;
     color: #2997ff;
@@ -44,6 +48,10 @@
     left: 760px;
     font-family: Helvetica;
     text-decoration: none;
+}
+
+.text-info-by:hover {
+    text-decoration: underline;
 }
 
 /* headers */
@@ -217,6 +225,10 @@
     text-decoration: none;
 }
 
+.text-info-learnmore-remix:hover {
+    text-decoration: underline;
+}
+
 .text-info-by-remix {
     position: absolute;
     color: #2997ff;
@@ -225,6 +237,10 @@
     left: 760px;
     font-family: Helvetica;
     text-decoration: none;
+}
+
+.text-info-by-remix:hover {
+    text-decoration: underline;
 }
 
 /* background image (remix) */
