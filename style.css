@@ -1,18 +1,236 @@
-.h1 {
-    color: rgb(255, 255, 255);
-
+/* titles and subtitles */
+.text-title {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 65px;
+    left: 490px;
+    font-family: Helvetica;
 }
 
-.h3 {
-    color: rgb(255, 255, 255);
+.text-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 165px;
+    left: 360px;
+    font-family: Helvetica;
 }
 
-.h4 {
+.text-cost {
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    top: 225px;
+    left: 525px;
+    font-family: Helvetica;
+}
+
+.text-info-learnmore {
+    position: absolute;
+    color: #2997ff;
+    font-size: 25px;
+    top: 300px;
+    left: 590px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.text-info-by {
+    position: absolute;
+    color: #2997ff;
+    font-size: 25px;
+    top: 300px;
+    left: 760px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+/* headers */
+.background-header {
+    padding: 30px 1000px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.heading-mac {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 280px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-mac:hover {
+    color: white;
+}
+
+.heading-ipad {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 400px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-ipad:hover {
+    color: white;
+}
+
+.heading-iphone {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 520px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-iphone:hover {
+    color: white;
+}
+
+.heading-watch {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 640px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-watch:hover {
+    color: white;
+}
+
+.heading-tv {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 760px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-tv:hover {
+    color: white;
+}
+
+.heading-music {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 880px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-music:hover {
+    color: white;
+}
+
+.heading-support {
+    position:fixed;
+    color: gray;
+    top: 25px;
+    left: 1000px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.heading-support:hover {
+    color: white;
+}
+
+.heading-apple-logo {
+    position:fixed;
+    top: 15px;
+    left: 160px;
+    width: 40px;
     color: gray;
 }
 
-.black {
-    background: rgb(0,0,0);
-    width: 1500px;
-    height: 1000px;
+.heading-search-icon {
+    position:fixed;
+    top: 20px;
+    left: 1120px;
+    width: 30px;
+    color:gray;
+}
+
+.heading-bag-icon {
+    position:fixed;
+    top: 18px;
+    left: 1240px;
+    width: 40px;
+    color: gray;
+}
+    
+/* background image */
+.background-size {
+    position:absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* titles and subtitles (remix) */
+.text-title-remix {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    top: 890px;
+    left: 550px;
+    font-family: Helvetica;
+}
+
+.text-subtitle-remix {
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    top: 990px;
+    left: 400px;
+    font-family: Helvetica;
+}
+
+.text-cost-remix {
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    top: 1050px;
+    left: 515px;
+    font-family: Helvetica;
+}
+
+.text-info-learnmore-remix {
+    position: absolute;
+    color: #2997ff;
+    font-size: 25px;
+    top: 1125px;
+    left: 590px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.text-info-by-remix {
+    position: absolute;
+    color: #2997ff;
+    font-size: 25px;
+    top: 1125px;
+    left: 760px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+/* background image (remix) */
+.background-remix-size {
+    position:absolute;
+    width: 100%;
+    top: 830px;
+    left: 0px;
 }
